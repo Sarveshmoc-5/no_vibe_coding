@@ -60,11 +60,25 @@
     <form id="form">
     <div id="login-side">
         <h1 align="center">Login</h1>
-        <input type="text" class="log" name="username" placeholder="Username"><br><br>
-        <input type="password" class="log" name="password" placeholder="Password"><br><br>
-        <button>Sign In</button>
+        <input type="text" id="un" name="username" placeholder="Username"><br><br>
+        <input type="password" id="up" name="password" placeholder="Password"><br><br>
+        <button type="button" onclick="getinfo()">Sign In</button>
     </div>
     </form>
 </body>
+<script>
+    function getinfo() {
+        var username = document.getElementById("un").value;
+        var password = document.getElementById("up").value;
+        return display_info(username, password);
+
+    }
+    function display_info(username, password){
+if (username === "sarvesh" && password === "12345") {
+        window.location.href = "dashboard.html";
+        } else {
+            alert("Invalid username or password");
+        }}
+</script>
 
 </html>
