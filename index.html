@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,37 +8,62 @@
 </head>
 <style>
     body {
+        margin: 0;
         background-color: #f0f0f0;
-        font-family: Arial, sans-serif;
+        font-family: Times, sans-serif;
+        display: flex;
+        align-items: center;
     }
-    h1 {
-        color: #f3efef;
-        text-align: center;
-        
-    }
+
+
     #side-pan {
         width: 300px;
-        height: 200px;
-        background-color: #3f3b3b98;
+        height: 300px;
+        background-color: #fac400df;
         border: 1px solid #ccc;
-        padding-bottom:100%;
-        padding-right: 500px;
+        padding-bottom: 290px;
+        padding-right: 300px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    #login-side{
-        background-color: aqua;
+        display: flex;
+        width: 500px;
+        height: 400px;
+        background-image: url("side-bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
 
     }
-    img{
-        width: 300px;
-        height: 600px;
+
+    #login-side {
+        background-color: #36464f8e;
+        margin: 20px 100px 20px 200px;
+        height: 500px;
+        width: 500px;
+        align-items: center;
+        border-radius: 10px;
     }
+
+    #logo {
+        width: 80px;
+        height: 80px;
+
+    }
+
+ 
 </style>
+
 <body>
     <div id="side-pan">
-        <h1>Welcome to My Website</h1>
-        <img src="C:\Users\SARVESH\Desktop\no vibe\login-illustration.png">
     </div>
-    <div id="login-side"><H1>hi</H1></div>
+    <form id="form">
+    <div id="login-side">
+        <h1 align="center">Login</h1>
+        <input type="text" class="log" name="username" placeholder="Username"><br><br>
+        <input type="password" class="log" name="password" placeholder="Password"><br><br>
+        <button>Sign In</button>
+    </div>
+    </form>
 </body>
+
 </html>
