@@ -1,0 +1,18 @@
+.card-img-top{
+    width: 500px;
+    height: 300px;
+}
+.cutoff{
+    border-radius: 10px;
+    background-color: #f1f5f8;
+    width:500px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.container-fluid{
+    margin-top: 100px;
+}
+.btn btn-outline-success{
+    margin-top: 10px;
+    width: 500px;
+}
