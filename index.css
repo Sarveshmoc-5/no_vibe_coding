@@ -16,3 +16,31 @@
     margin-top: 10px;
     width: 500px;
 }
+#res1{
+    margin-top: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    color: rgb(128, 0, 0);
+}
+#res2{
+    margin-top: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    color: rgb(21, 0, 128);
+}
+#res3{
+    margin-top: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 128, 0);
+}
+#res4{
+    margin-top: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    color: rgb(246, 255, 0);
+}
